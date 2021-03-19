@@ -8,3 +8,148 @@
   padding: 0;
   border: 0;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Fredericka the Great', cursive;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Press Start 2P', cursive;
+  line-height: 150%;
+}
+
+p,
+ul {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+p {
+    margin: 20px 0;
+}
+
+header {
+    background: #f5f5f5;
+    padding: 20px;
+}
+
+header h1 {
+    display: inline-block;
+    width: 30%;
+}
+
+header nav {
+    display: inline-block;
+    width: 65%;
+    text-align: right;
+}
+
+header nav li {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    transition: .2s;
+}
+
+header nav a:hover {
+    border-bottom: 3px solid #d8d065;
+    transition: .2s;
+}
+
+main {
+    min-height: 80vh;
+    margin-top: 5%;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/*=======================================
+
+  Home Page
+
+========================================*/
+.left-half,
+.right-half {
+    width: 45%;
+    display: inline-block;
+}
+
+.left-half img {
+    width: 100%;
+}
+
+.right-half {
+    vertical-align: top;
+    padding: 45px;
+}
+
+/*=======================================
+
+  About Page
+
+========================================*/
+.about-img {
+    float: right;
+    margin: 0 50px 50px;
+}
+
+/*=======================================
+
+  Photography Page
+
+========================================*/
+.float-left {
+    float: left;
+}
+
+.photography img {
+    margin: 5px;
+    max-width: 480px;
+    min-height: 225px;
+    vertical-align: top;
+    transition: .3s;
+}
+
+.photography img:hover {
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+/*=======================================
+
+  Footer styling
+
+========================================*/
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
