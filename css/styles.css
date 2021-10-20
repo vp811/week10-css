@@ -1,0 +1,121 @@
+/*========================
+
+    Universal Stying
+
+==========================*/
+* {
+   padding: 0;
+   margin: 0;
+   border: 0; 
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Fredericka the Great', cursive;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 20px;
+    line-height: 140%;
+}
+
+p,
+ul,
+li {
+    font-family: 'Nota Sans JP', sans-serif;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 140%;
+}
+
+header {
+    background: #f5f5f5;
+    padding: 20px;
+}
+
+header h1 {
+    width: 30%;
+    display: inline-block;
+}
+
+.active {
+    color: red;
+    font-weight: bold;
+}
+
+header nav {
+    width: 65%;
+    display: inline-block;
+    text-align: right;
+}
+
+header li {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+main .container {
+    margin: 90px auto;
+}
+
+footer {
+    background: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+/*========================
+
+    Home Page Styling
+
+==========================*/
+.left-half, 
+.right-half {
+    width: 45%;
+    display: inline-block;
+}
+
+.left-half img {
+    width: 100%;
+}
+
+.right-half {
+    vertical-align: top;
+    padding: 30px;
+}
+
+/*========================
+
+    About Page Styling
+
+==========================*/
+.about-img {
+    float: right;
+    margin: 0 0 50px 50px;
+}
+
+/*========================
+
+    Photography Page Styling
+
+==========================*/
+.float-left {
+    float: left;
+}
+
+.photography img {
+    margin: 5px;
+    max-width: 435px;
+    min-height: 225px;
+    vertical-align: top;
+}
